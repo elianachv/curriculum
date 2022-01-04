@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Saira+Condensed:wght@100;200&family=Slabo+27px&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Slabo 27px", serif;
+}
+
+body {
+  background-color: rgba(250, 250, 250, 0.911);
+}
+/* HEADER */
+header {
+  width: 100%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  background-color: teal;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: -195px;
+}
+
+/* MENU PRINCIPAL */
+nav ul a {
+  margin: 5px 15px;
+  text-decoration: none;
+}
+
+nav ul a:hover,
+nav ul a.active {
+  color: teal;
+  font-weight: bold;
+}
+
+nav {
+  justify-self: flex-start;
+  width: 100%;
+  background-color: peachpuff;
+  font-family: "Slabo 27px", serif;
+  position: sticky;
+  top: 0px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 5px;
+}
+
+/* CUADRO CON EL NOMBRE */
+header article {
+  padding: 8px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: fit-content;
+  background-color: white;
+}
+
+header article div {
+  padding: 30px 100px;
+  border: black 2px solid;
+}
+
+h1 {
+  font-family: "Slabo 27px", serif;
+}
+
+h2 {
+  font-family: "Saira Condensed", sans-serif;
+  font-style: italic;
+  font-size: medium;
+}
+
+/* SECCION PRINCIPAL */
+
+.fondo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* SECCIÓN INFORMACION PERSONAL */
+h3.home_infoGeneralSubtitutlo {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: large;
+  font-family: "Slabo 27px", serif;
+}
+
+.foto_perfil {
+  width: 230px;
+  height: auto;
+  border-radius: 200px;
+}
+
+.home__section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.home__section article {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: 10px 20px;
+  align-items: center;
+}
+
+/* SECCIÓN INFORMACIÓN ACADÉMICA */
+.home__sectionAcademica {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+section > article.article__infoAcademica {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  width: 400px;
+  margin: 10px 20px;
+}
+
+.home__section p,
+.article__infoAcademica p,
+.home__sectionExperiencia p,
+a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-family: "Slabo 27px", serif;
+  font-size: large;
+  text-align: justify;
+}
+
+.home__listInfo {
+  margin: auto;
+}
+
+.home__listInfo li {
+  display: flex;
+}
+
+.home__listInfo img {
+  width: 25px;
+  height: 25px;
+}
+.home__listSkill li {
+  margin: 10px 0;
+  text-align: center;
+  font-family: "Slabo 27px", serif;
+}
+
+.home__listSkill {
+  margin: auto;
+}
+
+.home__listTecnologia {
+  margin: auto;
+}
+.home__sectionTitlte {
+  border: solid black 2px;
+  background-color: white;
+  display: inline;
+  width: 80%;
+  padding: 7px 0px;
+  text-align: center;
+  font-family: "Slabo 27px", serif;
+  color: teal;
+  margin-bottom: 20px;
+}
+
+.home__sectionTitlte2 {
+  background-color: rgba(238, 204, 174, 0.835);
+  display: inline;
+  width: 80%;
+  padding: 7px 0px;
+  text-align: center;
+  font-family: "Slabo 27px", serif;
+}
+
+.link {
+  color: teal;
+  text-decoration: underline;
+}
+
+.titulo_experiencia {
+  width: 28%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.home__subtituloFecha {
+  display: block;
+  font-weight: bold;
+}
+
+.home__list {
+  font-family: "Slabo 27px", serif;
+  margin: 20px 0;
+}
+
+.home__list li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.home__datos p {
+  color: teal;
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+}
+
+.home__sectionExperiencia {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+.home__sectionExperiencia article {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.home__sectionExperiencia h4 {
+  color: teal;
+  margin-left: 10px;
+  font-family: "Slabo 27px", serif;
+}
+
+.home__sectionExperiencia p {
+  margin: 0 0 0 10;
+}
+
+footer {
+  width: 100%;
+  font-family: "Slabo 27px", serif;
+  text-align: center;
+  padding: 5px 0;
+  /* background-color: indianred; peachpuff */
+  background-color: rgba(238, 204, 174, 0.835);
+}
+
+/* SOBRE MI */
+
+.titulo-principal {
+  text-align: center;
+}
+
+.seccion-sobre-mi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 45px 0px;
+}
+
+.seccion-sobre-mi article {
+  margin: 10px 25px;
+}
+
+.sobre-mi-foto {
+  box-sizing: border-box;
+}
+
+.sobre-mi-foto img {
+  width: 500px;
+  border: teal 9px double;
+  padding: 10px;
+}
+
+.sobre-mi-info {
+  width: 500px;
+}
+
+.seccion-sobre-mi p,
+.seccion-sobre-mi h3 {
+  font-family: "Slabo 27px", serif;
+}
+
+.sobre-mi-info ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.sobre-mi-info ul li {
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Slabo 27px", serif;
+  font-weight: bold;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.sobre-mi-info img {
+  width: 50px;
+  margin-bottom: 5px;
+}
+
+/* PORTAFOLIO */
+
+main.portafolio {
+  text-align: center;
+}
+
+.portafolio-proyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+}
+
+.proyecto:hover{
+  background-color: rgba(0, 128, 128, 0.274);
+  transform: scale(1.03);
+
+}
+
+.proyecto {
+  background-color: blanchedalmond;
+  padding: 20px;
+  border-radius: 7px;
+  max-width: 300px;
+  margin: 20px 20px;
+  transition: all ease 0.5s;
+}
+.portada {
+  width: 100%;
+  margin: 10px 0px;
+}
+.portada img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.proyecto h4 {
+  font-size: 1.2rem;
+}
+
+.proyecto p {
+  font-size: 1.1rem;
+}
+
+.proyecto li img {
+  width: 40px;
+}
+
+.proyecto a {
+  color: darkblue;
+}
+
+.proyecto ul {
+  display: flex;
+  justify-content: center;
+}
+.proyecto li {
+  list-style: none;
+  margin: 0px 5px;
+}
+
+/* CONTACTO */
+
+main.contacto {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  width: 400px;
+  margin: 20px 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form button,
+form input,
+select,
+textarea {
+  width: 100%;
+  height: 40px;
+  margin: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid teal;
+}
+
+textarea {
+  height: auto;
+}
+
+form .boton-resetear {
+  background: peachpuff;
+  color: black;
+  border: none;
+  height: auto;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+form .boton-enviar {
+  background: teal;
+  border: none;
+  height: auto;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+
+}
+
+.form-container p {
+  text-align: center;
+}
+
+.form-container span {
+  color: #00669f;
+  margin-right: 5px;
+}
+
+.boton-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

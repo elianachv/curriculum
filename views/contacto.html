@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../img/foto_perfil.jfif"
+      type="image/x-icon"
+    />
+
+    <title>Eliana Chávez | Contacto</title>
+</head>
+<body>
+    <header>
+        <article>
+          <div>
+            <h1>Eliana Chávez</h1>
+            <h2>Ingeniera & Programadora</h2>
+          </div>
+        </article>
+        <nav>
+          <ul>
+            <li><a  href="../index.html">Hoja de vida</a></li>
+            <li><a href="./sobremi.html">Sobre mí</a></li>
+            <li><a href="./portafolio.html">Portafolio</a></li>
+            <li><a class="active" href="./contacto.html">Contacto</a></li>
+ 
+        </ul>
+        </nav>
+      </header>  
+
+      <main class="contacto">
+        <h1>¡Hablemos!</h1>
+        <br />
+        <div class="form-container">
+            <form id="form">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" required/>
+                <input type="email" name="correo" id="correo" placeholder="Correo electrónico" required/>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                </select>
+      
+                <div class="boton-container">
+                  <button type="reset" class="boton-resetear">Resetear</button>
+      
+                  <button class="boton-enviar">Entrar</button>
+                </div>
+              </form>
+        </div>
+       <a href="mailto:elianachavezv@outlook.com" id="sendEmail"></a>
+      </main>
+      <footer>
+        <p>Copyright - 2022 <br />Todos los derechos reservados</p>
+      </footer>
+      <script src="../js/contacto.js"></script>
+
+</body>
+</html>
