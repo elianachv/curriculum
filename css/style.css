@@ -82,6 +82,15 @@ h2 {
   flex-direction: column;
 }
 
+.descarga{
+  display: flex;
+}
+.descarga img{
+width: 30px;}
+.descarga a{
+  color: teal;
+}
+
 /* SECCIÓN INFORMACION PERSONAL */
 h3.home_infoGeneralSubtitutlo {
   text-align: center;
